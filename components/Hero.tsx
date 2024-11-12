@@ -1,3 +1,4 @@
+import { FaLocationArrow } from "react-icons/fa";
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
@@ -18,7 +19,7 @@ const Hero = () => {
       </div>
       <div>
         <div
-          className="h-screen w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.07] 
+          className="h-screen w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.03] 
         bg-grid-black/[0.2] flex items-center justify-center absolute top-0 left-0"
         >
           {/* Radial gradient for the container to give a faded look */}
@@ -33,7 +34,7 @@ const Hero = () => {
 
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Transforing Concepts into Seamless Experiences"
+            words="Transforing Concepts into Seamless User Experiences"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
@@ -41,7 +42,11 @@ const Hero = () => {
           </p>
 
           <a href="#about">
-            <MagicButton title="Show my work" />
+            <MagicButton
+              title="Show my work"
+              icon={<FaLocationArrow />}
+              position={"left"}
+            />
           </a>
         </div>
       </div>
