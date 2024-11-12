@@ -11,7 +11,7 @@ export const navItems = [
       key: 1,
       title: "1",
       description: "",
-      className: "lg:col-span-2 md:col-span-2 md:row-span-2 lg:min-h-[40vh]", // Reduced height and span
+      className: "lg:col-span-2 md:col-span-6 md:row-span-2 lg:min-h-[60vh]", // Reduced height and span
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
       img: "/b1.svg",
