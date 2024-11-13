@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
+import { div, span } from "framer-motion/client";
 
 export const BentoGrid = ({
   className,
@@ -57,6 +58,8 @@ export const BentoGridItem = ({
         background: "rgb(4,7,29)",
         backgroundColor:
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     >
       <div className={`${id === 6} && flex justify-center h-full`}>
@@ -95,18 +98,41 @@ export const BentoGridItem = ({
               titleClassName,
               "group-hover/bento: translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
             )}
-          ></div>
+          >
+            <div
+              className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10
+            "
+            >
+              {description}
+            </div>
+            <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
+              {title}
+            </div>
+          </div>
+          {id === 3 && (
+            <div className="absolute top-1/2 right-0 transform -translate-y-1/2 grid grid-cols-2 gap-y-4 gap-x-4 w-fit">
+              {[
+                "React JS",
+                "Tailwind CSS",
+                "Firebase",
+                "Swift UI",
+                "Python",
+                "JavaScript",
+              ].map((item) => (
+                <span
+                  key={item}
+                  className="flex items-center justify-center w-32 h-12 bg-[#10132e] rounded-lg text-center text-white text-lg opacity-80 lg:opacity-90"
+                >
+                  {item}
+                </span>
+              ))}
+            </div>
+          )}
         </div>
       </div>
-      {header}
+
       <div className="group-hover/bento:translate-x-2 transition duration-200">
         {icon}
-        <div className="font-sans font-bold text-neutral-600 dark:text-neutral-200 mb-2 mt-2">
-          {title}
-        </div>
-        <div className="font-sans font-normal text-neutral-600 text-xs dark:text-neutral-300">
-          {description}
-        </div>
       </div>
     </div>
   );

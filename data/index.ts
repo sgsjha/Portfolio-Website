@@ -8,10 +8,9 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      key: 1,
-      title: "1",
+      title: "I prioritize client collaboration, fostering open communication ",
       description: "",
-      className: "lg:col-span-2 md:col-span-6 md:row-span-2 lg:min-h-[60vh]", // Reduced height and span
+      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
       img: "/b1.svg",
@@ -19,10 +18,9 @@ export const navItems = [
     },
     {
       id: 2,
-      key: 2,
-      title: "2",
+      title: "I'm very flexible with time zone communications",
       description: "",
-      className: "lg:col-span-1 md:col-span-1 md:row-span-2", // Reduced span
+      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-start",
       img: "",
@@ -30,10 +28,9 @@ export const navItems = [
     },
     {
       id: 3,
-      key: 3,
-      title: "3",
+      title: "My tech stack",
       description: "I constantly try to improve",
-      className: "lg:col-span-1 md:col-span-1 md:row-span-2",
+      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
       img: "",
@@ -41,39 +38,36 @@ export const navItems = [
     },
     {
       id: 4,
-      key: 4,
-      title: "4",
+      title: "Tech enthusiast with a passion for development.",
       description: "",
-      className: "lg:col-span-2 md:col-span-2 md:row-span-1", // Adjusted span
+      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
       img: "/grid.svg",
       spareImg: "/b4.svg",
     },
+  
     {
       id: 5,
-      key: 5,
-      title: "5",
+      title: "Currently building a JS Animation library",
       description: "The Inside Scoop",
-      className: "md:col-span-2 md:row-span-2 lg:row-span-2 lg:col-span-2",
-      imgClassName: "absolute right-0 bottom-0 md:w-80 w-60", // Reduced image width
+      className: "md:col-span-3 md:row-span-2",
+      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
       img: "/b5.svg",
       spareImg: "/grid.svg",
     },
     {
       id: 6,
-      key: 6,
-      title: "6",
+      title: "Do you want to start a project together?",
       description: "",
-      className: "lg:col-span-1 md:col-span-1 md:row-span-1",
+      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-center md:max-w-full max-w-60 text-center",
       img: "",
       spareImg: "",
     },
   ];
-  
   
   export const projects = [
     {
@@ -82,7 +76,7 @@ export const navItems = [
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "/ui.earth.com",
+      link: "https://github.com/adrianhajdin?tab=repositories",
     },
     {
       id: 2,
@@ -90,7 +84,7 @@ export const navItems = [
       des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "/ui.yoom.com",
+      link: "https://github.com/adrianhajdin/zoom-clone",
     },
     {
       id: 3,
@@ -98,7 +92,7 @@ export const navItems = [
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "/ui.aiimg.com",
+      link: "https://github.com/adrianhajdin/ai_saas_app",
     },
     {
       id: 4,
@@ -106,7 +100,7 @@ export const navItems = [
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "/ui.apple.com",
+      link: "https://github.com/adrianhajdin/iphone",
     },
   ];
   
