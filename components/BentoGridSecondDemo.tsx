@@ -29,30 +29,71 @@ const Skeleton = () => (
 );
 const items = [
   {
-    title: "The Dawn of Innovation",
-    description: "Explore the birth of groundbreaking ideas and inventions.",
+    title: "Advanced",
+    description: (
+      <ul className="list-disc pl-5 space-y-1 text-neutral-700 dark:text-neutral-300">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Tailwind CSS</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+        <li>Java</li>
+        <li>React JS</li>
+        <li>Firebase</li>
+        <li>Swift</li>
+        <li>React</li>
+        <li>XCode</li>
+        <li>SQL</li>
+        <li>C/C++</li>
+        <li>Swift UI</li>
+        <li>Git</li>
+        <li>Git Hub</li>
+      </ul>
+    ),
     header: <Skeleton />,
-    className: "md:col-span-2",
+    className: "md:col-span-1 row-span-2",
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Digital Revolution",
-    description: "Dive into the transformative power of technology.",
+    title: "Intermediate",
+    description: (
+      <ul className="list-disc pl-5 space-y-1 text-neutral-700 dark:text-neutral-300">
+        <li>Node JS</li>
+        <li>Next JS</li>
+
+        <li>Framer-Motion</li>
+        <li>Figma</li>
+        <li>UI/UX</li>
+        <li>Bootstrap</li>
+        <li>Figma</li>
+      </ul>
+    ),
     header: <Skeleton />,
     className: "md:col-span-1",
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Art of Design",
-    description: "Discover the beauty of thoughtful and functional design.",
+    title: "Exposure",
+    description: (
+      <ul className="list-disc pl-5 space-y-1 text-neutral-700 dark:text-neutral-300">
+        <li>Kotlin</li>
+        <li>Android SDK</li>
+        <li>C#</li>
+        <li>Mongo DB</li>
+        <li>Bootstrap</li>
+        <li>Cyber Security</li>
+        <li>Autonomous Mobile Robotics</li>
+      </ul>
+    ),
     header: <Skeleton />,
     className: "md:col-span-1",
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "The Power of Communication",
-    description:
-      "Understand the impact of effective communication in our lives.",
+    description: "sdf",
     header: <Skeleton />,
     className: "md:col-span-2",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
