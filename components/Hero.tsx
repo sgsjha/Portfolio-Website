@@ -6,6 +6,9 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 const Hero = () => {
   return (
     <div className="pb-20 pt-36">
+      {" "}
+      {/* Adjusted padding-bottom for more space */}
+      {/* Spotlight effects */}
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -17,19 +20,22 @@ const Hero = () => {
         />
         <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
       </div>
-      <div>
+      <div className="absolute z-0">
+        {" "}
+        {/* Ensure this stays in the flow of the layout */}
         <div
-          className="h-screen w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.03] 
-        bg-grid-black/[0.2] flex items-center justify-center absolute top-0 left-0"
+          className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] 
+        bg-grid-black/[0.2] flex items-center justify-center"
         >
-          {/* Radial gradient for the container to give a faded look */}
+          {/* Radial gradient for the container */}
         </div>
       </div>
-      {/* this is a comment */}
-      <div className="flex justify-center relative my-20 z-10 ">
+      <div className="flex justify-center relative my-32 z-10">
+        {" "}
+        {/* Increased margin-bottom */}
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Portfolio Website built with React,Next JS and Tailwind CSS
+            Portfolio Website built with React, Next JS, and Tailwind CSS
           </h2>
 
           <TextGenerateEffect
