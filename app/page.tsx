@@ -4,6 +4,7 @@ import { FloatingNav } from "@/components/ui/FloatingNav";
 import { FaHome } from "react-icons/fa";
 import Grid from "@/components/Grid";
 import { BentoGridSecondDemo } from "@/components/BentoGridSecondDemo";
+import MacBook from "@/components/ui/MacBook";
 
 export default function Home() {
   return (

@@ -7,6 +7,7 @@ import {
   IconSignature,
   IconTableColumn,
 } from "@tabler/icons-react";
+import MacBook from "./ui/MacBook";
 
 export function BentoGridSecondDemo() {
   return (
@@ -92,8 +93,8 @@ const items = [
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Power of Communication",
-    description: "sdf",
+    title: "Currently Building an AI Study Assistant, StudySync",
+    description: <MacBook />,
     header: <Skeleton />,
     className: "md:col-span-2",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
