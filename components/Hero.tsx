@@ -2,6 +2,7 @@ import { FaLocationArrow } from "react-icons/fa";
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { FloatingDockDemo } from "./FloatingDockDemo";
 
 const Hero = () => {
   return (
@@ -54,7 +55,12 @@ const Hero = () => {
             />
           </a>*/}
 
-          <h1 className="pt-10 text-sans text-6xl bold"> My Skills </h1>
+          <FloatingDockDemo />
+
+          <h1 className="uppercase tracking-widest text-5xl text-center text-blue-100 max-w-80 mt-10">
+            {" "}
+            My Skills{" "}
+          </h1>
         </div>
       </div>
     </div>
