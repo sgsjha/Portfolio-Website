@@ -9,8 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@splinetool/react-spline": "^4.0.0",
-    "@splinetool/runtime": "^1.9.45",
     "@tabler/icons-react": "^3.22.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.11.17",
@@ -25,6 +23,8 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@splinetool/react-spline": "^4.0.0",
+    "@splinetool/runtime": "^1.9.46",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

@@ -32,7 +32,6 @@ const Hero = () => {
       </div>
       <div className="flex justify-center relative my-32 z-10">
         {" "}
-        {/* Increased margin-bottom */}
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             Portfolio Website built with React, Next JS, and Tailwind CSS
@@ -47,13 +46,15 @@ const Hero = () => {
             Hi I&apos;m Sarthak, a Computer Science Student based in Liverpool!
           </p>
 
-          <a href="#about">
+          {/* <a href="#about">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
               position={"left"}
             />
-          </a>
+          </a>*/}
+
+          <h1 className="pt-10 text-sans text-6xl bold"> My Skills </h1>
         </div>
       </div>
     </div>
