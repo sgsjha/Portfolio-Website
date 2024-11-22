@@ -2,9 +2,9 @@ import Image from "next/image";
 import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { FaHome } from "react-icons/fa";
-import Grid from "@/components/Grid";
 import { BentoGridSecondDemo } from "@/components/BentoGridSecondDemo";
-import MacBook from "@/components/ui/MacBook";
+import { Timeline } from "@/components/ui/timeline";
+import { TimelineDemo } from "@/components/TimelineDemo";
 
 export default function Home() {
   return (
@@ -14,7 +14,10 @@ export default function Home() {
           navItems={[{ name: "Home", link: "/", icon: <FaHome /> }]}
         />
         <Hero />
+
         <BentoGridSecondDemo />
+
+        <TimelineDemo />
       </div>
     </main>
   );

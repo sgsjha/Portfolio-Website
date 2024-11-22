@@ -5,7 +5,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-2 pt-36">
       {" "}
       {/* Adjusted padding-bottom for more space */}
       {/* Spotlight effects */}
