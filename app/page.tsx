@@ -6,11 +6,12 @@ import { BentoGridSecondDemo } from "@/components/BentoGridSecondDemo";
 import { Timeline } from "@/components/ui/timeline";
 import { TimelineDemo } from "@/components/TimelineDemo";
 import { FloatingDockDemo } from "@/components/FloatingDockDemo";
+import { AchievementsGrid } from "@/components/AchievementsGrid";
 
 export default function Home() {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-visible mx-auto sm:px-10 px-5">
-      <div className="max-w-7xl w-full">
+      <div className="max-w-7xl w-full flex flex-col items-center">
         <FloatingNav
           navItems={[{ name: "Home", link: "/", icon: <FaHome /> }]}
         />
@@ -19,6 +20,12 @@ export default function Home() {
         <BentoGridSecondDemo />
 
         <TimelineDemo />
+
+        <h1 className="uppercase tracking-widest text-5xl text-center text-blue-100 mt-10">
+          ACHIEVEMENTS
+        </h1>
+
+        <AchievementsGrid />
       </div>
     </main>
   );

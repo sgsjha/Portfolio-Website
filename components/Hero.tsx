@@ -39,12 +39,13 @@ const Hero = () => {
           </h2>
 
           <TextGenerateEffect
-            className="text-center text-[40px] md:text-7xl lg:text-7xl"
-            words="AADI"
+            className="text-center text-[60px] md:text-7xl lg:text-8xl"
+            words="SARTHAK JHA"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi I&apos;m Sarthak, a Computer Science Student based in Liverpool!
+            Hi I&apos;m Sarthak, a Final Year Computer Science Student at the
+            University of Liverpool!
           </p>
 
           {/* <a href="#about">
