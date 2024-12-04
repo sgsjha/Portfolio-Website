@@ -15,6 +15,7 @@
     "mini-svg-data-uri": "^1.4.4",
     "next": "15.0.3",
     "next-themes": "^0.4.3",
+    "preline": "^2.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.3.0",
@@ -25,6 +26,7 @@
   "devDependencies": {
     "@splinetool/react-spline": "^4.0.0",
     "@splinetool/runtime": "^1.9.46",
+    "@tailwindcss/forms": "^0.5.9",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

@@ -6,7 +6,7 @@ import { BentoGridSecondDemo } from "@/components/BentoGridSecondDemo";
 import { Timeline } from "@/components/ui/timeline";
 import { TimelineDemo } from "@/components/TimelineDemo";
 import { FloatingDockDemo } from "@/components/FloatingDockDemo";
-import { AchievementsGrid } from "@/components/AchievementsGrid";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -21,11 +21,7 @@ export default function Home() {
 
         <TimelineDemo />
 
-        <h1 className="uppercase tracking-widest text-5xl text-center text-blue-100 mt-10">
-          ACHIEVEMENTS
-        </h1>
-
-        <AchievementsGrid />
+        <Footer />
       </div>
     </main>
   );
