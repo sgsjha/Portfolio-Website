@@ -11,6 +11,11 @@ export const metadata: Metadata = {
   description: "Modern & Minimal JS Mastery Portfolio",
 };
 
+// Define RootLayoutProps type
+interface RootLayoutProps {
+  children: React.ReactNode; // ReactNode covers all valid children types
+}
+
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <>
