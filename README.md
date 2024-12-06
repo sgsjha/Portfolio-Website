@@ -10,5 +10,5 @@ Portfolio Website built with React, Next JS, Tailwind CSS, Framer Motion, Spline
 
 ## Deployed link : 
 
-This web app is deployed using Vercel : https://portfolio-website-beryl-ten-69.vercel.app/
+This web app is deployed using Vercel : https://sarthak-jha-portfolio-website.vercel.app/
 
