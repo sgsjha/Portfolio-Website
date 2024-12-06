@@ -97,7 +97,7 @@ const items = [
     title: "Currently Building an AI Study Assistant, StudySync",
     description: <CuteComputer />,
     header: <Skeleton />,
-    className: "md:col-span-2",
+    className: "md:col-span-2 sm:h-100 sm:w-100",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
 ];
