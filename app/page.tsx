@@ -7,6 +7,7 @@ import { Timeline } from "@/components/ui/timeline";
 import { TimelineDemo } from "@/components/TimelineDemo";
 import { FloatingDockDemo } from "@/components/FloatingDockDemo";
 import Footer from "@/components/Footer";
+import { Analytics } from "@vercel/analytics/next";
 
 export default function Home() {
   return (
