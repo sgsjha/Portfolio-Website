@@ -5,6 +5,24 @@ import { Timeline } from "@/components/ui/timeline";
 export function TimelineDemo() {
   const data = [
     {
+      title: "Programming Lecturer",
+      month_year: "Feb 2025 - April 2025",
+      content: (
+        <div>
+          <p className="text-neutral-800 dark:text-neutral-200 text-sm lg:text-xl font-normal mb-8">
+            Computing Staff, Wirral Met College
+          </p>
+          <ul className="list-disc pl-5 space-y-1 text-neutral-700 dark:text-neutral-300">
+            <li>
+              Taught full-stack development (JavaScript, Python, React.js,
+              Node.js) to 1st and 2nd-year students, through theory classes,
+              assessments, and hands-on projects
+            </li>
+          </ul>
+        </div>
+      ),
+    },
+    {
       title: "Teaching Assistant",
       month_year: "Feb 2023-Present",
       content: (
